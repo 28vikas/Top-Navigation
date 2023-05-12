@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+
+.navbar{
+    background-color: #333;
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+}
+
+ul li{
+    padding: 20px 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+li:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+   
+}
+
+.active{
+    background-color: #04AA6D !important;
+  color: white !important;
+}
